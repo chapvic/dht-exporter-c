@@ -1,0 +1,11 @@
+# /etc/default/dht-exporter
+# Configuration file for dht-exporter service.
+# Parameters are passed as command-line arguments.
+# CLI arguments (if any) override these values.
+#
+# Examples:
+#   PARAMS="--interval 15"
+#   PARAMS="--interval 15 --json /var/lib/dht-exporter/readings.json"
+#   PARAMS="--addr 0.0.0.0:9988 --rt 10 --wt 20"
+
+PARAMS=""
